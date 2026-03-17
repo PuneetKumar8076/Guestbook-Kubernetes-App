@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: us.icr.io/<namespace>/guestbook:v1
+        image: us.icr.io/sn-labs-puneet/guestbook:v1
         ports:
         - containerPort: 3000
